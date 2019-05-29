@@ -17,3 +17,5 @@ This repo contains a rule visualization project, Python.
   * Install mlxtend with ```pip install mlxtend```
   
     or install it using conda ```conda install mlxtend```
+
+### Example
