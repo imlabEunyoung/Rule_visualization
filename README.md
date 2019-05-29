@@ -8,7 +8,7 @@ This repo contains a rule visualization project, Python.
 
   * Get NetworkX from the Python Package Index at **http://pypi.python.org/pypi/networkx** 
   
-  or install it with ```pip install networkx```
+    or install it with ```pip install networkx```
 
 * mlxtend
 
@@ -16,4 +16,4 @@ This repo contains a rule visualization project, Python.
 
   * Install mlxtend with ```pip install mlxtend```
   
-  or install it using conda ```conda install mlxtend```
+    or install it using conda ```conda install mlxtend```
