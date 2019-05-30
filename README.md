@@ -1,5 +1,5 @@
 # Rule_visualization 
-This repo contains a association rule visualization project, Python.
+This repo contains an association rule visualization project, Python.
 
 ### Association rule
 One of the major techniques to detect and extract useful information from large scale transaction data
