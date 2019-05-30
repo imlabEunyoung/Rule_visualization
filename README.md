@@ -26,38 +26,41 @@ new_rule = make_dict(make_input(rules, rules_num), rules_num)
 ![image](https://user-images.githubusercontent.com/41055617/58598861-f0f9b200-82b8-11e9-9ebb-945b63e842da.png)
 
  * Function
-   * Make_input 
+   * **Make_input** 
    
-    [Input]
+     [Input]
 
-    Rules: Output of ```mlxtend```
+     Rules: Output of ```mlxtend```
 
-    Rule_num: The number of rules you want to visualize
-   
-    [Output]
-   
-    Input_vis: Antecedents, consequents, support and confidence after data preprocessing
+     Rule_num: The number of rules you want to visualize
 
-   * Make_dict
 
-    [Input]
+     [Output]
 
-    Input_vis: Output of Make_input
+     Input_vis: Antecedents, consequents, support and confidence after data preprocessing
 
-    Rule_num: The number of rules you want to visualize
-   
-    [Output]
-       
-    Rules: (Dictionary) Key: consequents / value: antecedents and corresponding support, confidence
+   * **Make_dict**
 
-   * Visualize_rule
+     [Input]
+
+     Input_vis: Output of Make_input
+
+     Rule_num: The number of rules you want to visualize
+
+
+     [Output]
+
+     Rules: (Dictionary) Key: consequents / value: antecedents and corresponding support, confidence
+
+   * **Visualize_rule**
     
-    [Input]
-    
-    Rules: (Dictionary) Key: consequents / value: antecedents and corresponding support, confidence
-    
-    [Output]
-    
-    Figure
+     [Input]
+
+     Rules: (Dictionary) Key: consequents / value: antecedents and corresponding support, confidence
+
+
+     [Output]
+
+     Figure
   
   
