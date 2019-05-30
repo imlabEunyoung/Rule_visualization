@@ -19,8 +19,7 @@ NetworkX
     
 
 ### Usage
-```input_vis = make_input(rules, 8)
-   new_rule  = make_dict(input_vis, rules_num)```
+```new_rule  = make_dict(make_input(rules, rules_num), rules_num)```
 
 ![image](https://user-images.githubusercontent.com/41055617/58598861-f0f9b200-82b8-11e9-9ebb-945b63e842da.png)
 
