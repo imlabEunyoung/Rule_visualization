@@ -27,10 +27,15 @@ new_rule = make_dict(make_input(rules, rules_num), rules_num)
 
  * Function
    * Make_input 
+   
    [Input]
+   
    Rules: Output of ```mlxtend```
+   
    Rule_num: The number of rules you want to visualize
+   
    [Output]
+   
    Input_vis: Antecedents, consequents, support and confidence after data preprocessing
    
    * Make_dict
