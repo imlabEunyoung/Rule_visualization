@@ -25,5 +25,21 @@ new_rule = make_dict(make_input(rules, rules_num), rules_num)
 
 ![image](https://user-images.githubusercontent.com/41055617/58598861-f0f9b200-82b8-11e9-9ebb-945b63e842da.png)
 
- * Thicker edges imply higher support
+ * Function
+   * Make_input 
+   [Input]
+   Rules: Output of ```mlxtend```
+   Rule_num: The number of rules you want to visualize
+   [Output]
+   Input_vis: Antecedents, consequents, support and confidence after data preprocessing
+   
+   * Make_dict
+   * Visualize_rule
+
+
+   
+   
+   
+   
+   Thicker edges imply higher support
  
